@@ -1,0 +1,54 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 62.5%; }
+
+.sticky {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+  border: 1px solid black; }
+  .sticky i {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin-left: 0.5rem;
+    color: #773795; }
+  .sticky a {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    width: 90%;
+    font-size: 2.2rem;
+    text-decoration: none; }
+  .sticky .social-links {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-end; }
+    .sticky .social-links ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    .sticky .social-links li {
+      margin-right: 2rem;
+      list-style: none; }
+      .sticky .social-links li i {
+        font-size: 2.1rem;
+        margin-left: 1.3rem; }
+    .sticky .social-links .login {
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      background-color: #773795;
+      color: white;
+      width: 43px;
+      height: 28px;
+      padding: 10px 30px;
+      margin-left: 10px;
+      margin-right: 20px;
+      border-radius: 25px; }
