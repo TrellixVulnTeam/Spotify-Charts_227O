@@ -17,9 +17,9 @@ $spotify-color: #773795;
   a {
     display: flex;
     align-items: center;
-    margin-left: 0.3rem;
+    margin-left: 0.4rem;
     width: 90%;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     text-decoration: none;
   }
 
@@ -48,6 +48,7 @@ $spotify-color: #773795;
     .login {
       font-size: 1.5rem;
       display: flex;
+      justify-content: center;
       align-items: center;
       background-color: $spotify-color;
       color: white;
